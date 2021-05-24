@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hungry-Monster</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <nav>
+        <img src="images/logo.png" alt="">
+        <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Recipes</li>
+            <li>Blog</li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <form action="">
+            <div class="input-group mb-3 p-5 search">
+                <input id="food-name" style="background-color:rgb(239, 247, 239); border-radius: 10px;" type="text" class="form-control mainLoginInput" placeholder="&#61442 Search for Meal.....">
+                <div class="input-group-append">
+                    <button onclick="searchMeal()" style="border-radius: 10px;" class="btn btn-outline-danger mainLoginInput" type="button">Search</button>
+                </div>
+            </div>
+        </form>
+
+        <div id="mealInfo">
+
+        </div>
+
+        <div id="meals">
+
+        </div>
+
+
+    </div>
+
+
+
+
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>
