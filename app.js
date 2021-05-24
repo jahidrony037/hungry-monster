@@ -8,6 +8,7 @@ function searchMeal() {
     const getMeals = mealNames => {
         const meals = mealNames.meals;
         const mealsDiv = document.getElementById('meals');
+	    mealsDiv.innerHTML = '';
 
         meals.forEach(meal => {
             console.log(meal);
